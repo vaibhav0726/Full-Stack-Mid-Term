@@ -37,7 +37,7 @@ header {
     top: 0;
     width: 100%;
     align-items: center;
-    background-color: black;
+    background-color: rgb(36, 13, 13);;
     display: flex;
     justify-content: space-evenly;
     height: 7rem;
@@ -83,9 +83,9 @@ header .navbar a:hover{
 
 
 .home{
-    margin-right: 2rem;
+    margin-right: 50rem;
     margin-left: 100px;
-    width: 90%; 
+    width: 83%; 
     margin-top: 150px;  
     position: absolute;
     color: black;
@@ -98,6 +98,7 @@ header .navbar a:hover{
     /* word-wrap: nowrap;
     overflow: hidden; */
     border-radius: 10%;
+    transform: ro;
 }
 
 .home .blog h1{
@@ -156,6 +157,7 @@ header .navbar a:hover{
 
 .gallery .photos .box .image:hover{
     z-index: 1000;
+    opacity: 0.8;
     background-color: #29d9d5;
 }
 
@@ -189,4 +191,25 @@ header .navbar a:hover{
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.journey
+{
+    background-image: url(./photo.avif) ;
+    object-fit: cover;
+    color: black;
+    margin: 80px 0px ;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.journey h4{
+    color: #29d9d5;
+}
+
+.journey h1{
+    color: white;
 }
