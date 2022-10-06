@@ -9,17 +9,19 @@
       src="https://kit.fontawesome.com/66e81b8867.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Photographer Blog</title>
 </head>
 <body>
     <header class="header">
-        <a href="#" class="logo">
+        <!-- <a href="#" class="logo">
             <span class="material-symbols-outlined">
                 photo_camera
                 </span>
                 <span class="text">IMAGE</span>
-        </a>
+        </a> -->
+        <a href="#" class="logo"><i class="fas fa-camera-retro"></i>IMAGE</a>
         <nav class="navbar">
             <a href="#" id="home">Home</a>
             <a href="#" id="about">About</a>
@@ -90,15 +92,42 @@
     </section>
     <!-- gallery section ends -->
 
-    <section class="journey">
-        <h4>Start You journey</h4>
-        <h1>Let's Caputure This World</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae placeat deleniti quae aliquam accusamus dolorum exercitationem iure nihil reprehenderit quisquam!</p>
+    <section class="banner">
+        <div class="start">Start Your Journey !</div>
+        <h1>Let's Capture The World</h1>
+        <div class="content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi unde accusantium inventore, recusandae quas earum ad. Modi delectus officia velit sapiente laboriosam enim maiores eum, minima tenetur recusandae impedit voluptatibus!</div>
+        <div class="btn">
+            Book Trial
+        </div>
     </section>
 
     <!-- footer starts -->
-    <footer class="footer">
-        
-    </footer>
+    <div id="footer">
+        <div class="innerfooter">
+            <h3>Photography</h3>
+            <p>Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Dolores, non?</p>
+            <div class="footericons">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+        <div class="innerfooter">
+            <h3>Contact Info</h3>
+            <p>New Delhi, India</p>
+            <p>+9999-999-999</p>
+            <p>abcd@gmail.com</p>
+            <p>7:00am - 10:00pm</p>
+        </div>
+        <div class="innerfooter">
+            <h3>Newsletter</h3>
+            <p>Subscribe for latest updates</p>
+            <form action="">
+                <input type="email" placeholder="enter your email" class="inputemail" name=""><br>
+                <input type="submit" name="" id="" value="Subscribe" class="pagebutton">
+            </form>
+        </div>
+    </div>
 </body>
 </html>
